@@ -45,8 +45,8 @@ When working on this it is important to understand the five things -> hierarchy,
 1. Always keep it simple.
 2. Keep designs consistent throughout.
 3. Follow an F-layout for the reading patterns. Have the most important content on the left, logo at the top and keep following the pattern.
-4. Another is the Z-layout. Tipically for websites that need fast browsing and have video content.
-5. Effeciently switching between screen sizes and accomodation content accordingly.
+4. Another is the Z-layout. Typically for websites that need fast browsing and have video content.
+5. Efficiently switching between screen sizes and accommodation content accordingly.
 6. https://www.dailyui.co/ -> for practicing UI and UX design.
 
 ## Custom design to include all the above aspects
