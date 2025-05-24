@@ -25,7 +25,7 @@ return result
 
 }
 
-function whosPaying(names) {
+function who_is_paying(names) {
     
 /******Don't change the code above*******/
     
