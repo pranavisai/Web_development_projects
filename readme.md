@@ -70,7 +70,7 @@ https://pranavisbnb.my.canva.site/pranavi-s-b-b
 
 ## Document Object Model (DOM)
 1. Gives the ability to catalogue the webpage into individual objects to be able to select and manipulate.
-2. Ways of getting an element:
+2. Commands:
     1. querySelector
     2. getElementsByTagName
     3. firstElementChild
@@ -82,6 +82,7 @@ https://pranavisbnb.my.canva.site/pranavi-s-b-b
     9. .attributes -> gives a list of all the attributes attached to a HTML element
     10. getAttribute -> for getting a specific attribute of an element
     11. setAttribute(attribute_name, what_to_be_changed_to) -> to set value for a specific attribute of an element
+    12. onEventListener(event, listener_function) -> the function is given without () as if it is given it is directly triggering the function when the script is run through HTML. Without () the function will be called only upon the event being performed.
 3. Query Selector can be used in this way too:
     1. document.querySelector("h1") -> to get the tag
     2. document.querySelector("#title") -> to get by Id
@@ -91,4 +92,19 @@ https://pranavisbnb.my.canva.site/pranavi-s-b-b
 
 ## DOM style object documentation
 https://www.w3schools.com/jsref/dom_obj_style.asp
+
+## creating objects in JS
+var object_name = {
+    property1; value1,
+    property2: value2,
+    property3: value3, (can be any data type for values including arrays)
+}
+
+## Constructor function
+The constructor function name is written this way for identification. 
+
+function ThisIsAConstructorFunction (parm1, parm2, ....)
+{
+
+}
 
