@@ -25,6 +25,9 @@ https://appbrewery.github.io/gridgarden/
 
 https://appbrewery.github.io/bootstrap-layout/
 
+## Shorthand
+CDN -> Content Delivery Networks
+
 ## To be able to toggle the website between light and dark in bootstrap 
 
 data-bs-theme = "dark"
@@ -107,4 +110,22 @@ function ThisIsAConstructorFunction (parm1, parm2, ....)
 {
 
 }
+
+## jQuery
+1. Helps in minimizing the code. It is to JavaScript as BootStrap is to CSS.
+2. Example of JS to jQuery for selecting elements: document.querySelector("h1") -> $("h1").
+3. Even to select all querySelectorAll("button") -> $("button"). No difference between selecting one or many.
+4. $("h1").css("font-size") -> example of getting the value of the element using CSS. Here we are getting the value of the font-size.
+    $("h1).css("font-size", "5rem") -> example of setting the value of the element.
+5. .addClass for adding a CSS class to an element. To add more classes in the same command .addClass("class1 class2").
+6. .remove for removing a CSS class from an element.
+7. .hasClass("classname") -> to check if the class is applied or not. Gives back a boolean value.
+8. Manipulating Text -> .text("sampletext") -> to change the text of the element.
+9. Manipulating attributes ->  .attr("attribute_name", "attribute_change_value") -> example of attribute names of an element: img, src, href, class and so on.
+10. $("h1").before("<button>New Button</button>") -> Example of adding an element before another element.
+11. $("h1").after("<button>New Button</button>") -> Example of adding an element after another element.
+12. $("h1").prepend("<button>New Button</button>") -> Example of adding an element just after the opening tag of an element, in this case h1.
+13. $("h1").append("<button>New Button</button>") -> Example of adding an element just after the content of an element, in this case h1.
+14. Some of the animation commands include: .hide(), .toggle(), .fadeOut(), .fadeIn(), .fadeToggle(), .slideUp(), .slideDown(), .slideToggle(), .animate().
+
 
