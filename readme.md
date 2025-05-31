@@ -128,4 +128,38 @@ function ThisIsAConstructorFunction (parm1, parm2, ....)
 13. $("h1").append("<button>New Button</button>") -> Example of adding an element just after the content of an element, in this case h1.
 14. Some of the animation commands include: .hide(), .toggle(), .fadeOut(), .fadeIn(), .fadeToggle(), .slideUp(), .slideDown(), .slideToggle(), .animate().
 
+## Command Line
+1. BASH -> Bourne Again Shell
+2. touch filename -> to create a new file
+3. open filename -> to open the file using default editor
+4. open -a application path along with filename -> to open using specific application
+5. pwd -> print working directory
+6. rm filename, rm -r, rm * -> remove specific file, remove a directory, remove all within the specific directory
+7. rm -rf -> remove with force
+
+## Backend is a combination of: 
+1. Application, 
+2. Server and 
+3. Database
+
+## Node.js
+1. A Framework provides us with pre-built components and structures to be used to build an application without the need of writing every single line of code from scratch.
+2. Node.js is "An asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications".
+3. Node REPL -> Read Eval Print Loop. It is a computer environment where user inputs are read and evaluated, and then the results are returned to the user.
+4. To run a JS file using Node -> node filename.js in the terminal.
+
+
+## NPM
+https://www.npmjs.com/
+1. NPM -> Node Package Manager
+2. npm init -> generates a JSON configuration file for the project (called package.json).
+3. npm install <package_name> or npm i <package_name> -> to install npm packages.
+4. npm i <package_name1> <package_name2> <package_name3> -> to install multiple packages at once.
+5. CJS -> CommonJS, ESM -> ECMA Script Modules
+
+
+
+
+
+
 
