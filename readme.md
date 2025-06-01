@@ -143,6 +143,7 @@ function ThisIsAConstructorFunction (parm1, parm2, ....)
 3. Database
 
 ## Node.js
+https://nodejs.org/docs/latest/api/
 1. A Framework provides us with pre-built components and structures to be used to build an application without the need of writing every single line of code from scratch.
 2. Node.js is "An asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications".
 3. Node REPL -> Read Eval Print Loop. It is a computer environment where user inputs are read and evaluated, and then the results are returned to the user.
@@ -157,8 +158,49 @@ https://www.npmjs.com/
 4. npm i <package_name1> <package_name2> <package_name3> -> to install multiple packages at once.
 5. CJS -> CommonJS, ESM -> ECMA Script Modules
 
+## Express.js
+1. Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js.
+2. To create Express Server:
+    1. Create directory
+    2. Create index.js file
+    3. Initialize NPM
+    4. Install the Express package
+    5. Write Server application in index.js
+    6. Start server -> node index.js
+    7. nodemon index.js -> used when we want to restart the server automatically as soon as their are changes in the directory. Install it using 
+    `npm i -g nodemon` (since its a global install, in case of error use sudo)
 
+## HTTP
+https://developer.mozilla.org/en-US/docs/Web/HTTP
+1. HyperText Transfer Protocol -> language that allows computers to talk to one another.
+2. Request Vocabulary -> GET, POST, PUT, PATCH, DELETE
+3. sudo lsof -i -P -n | grep LISTEN -> All the ports actively listening for outside interaction.(in Mac)
+4. HTTP response status codes:
+    1. 100 - 199 -> Informational responses
+    2. 200 - 299 -> Successful responses
+    3. 300 - 399 -> Redirection messages
+    4. 400 - 499 -> Client error messages
+    5. 500 - 599 -> Server error messages 
 
+## Middleware
+1. Middleware refers to functions that sit between the request and response objects in the request-response cycle. Middleware functions can:
+    1. Execute any code.
+    2. Modify the request or response objects.
+    3. End the request-response cycle.
+    4. Call the next middleware in the stack using next() if there are any.
+2. Types of Middleware:
+    1. Application-level middleware – bound to an app instance (app.use() or app.get()).
+    2. Router-level middleware – bound to an Express Router instance.
+    3. Built-in middleware – like express.json() or express.static().
+    4. Error-handling middleware – has 4 parameters: (err, req, res, next).
+3. Commonly used for:
+    1. Logging (morgan): https://www.npmjs.com/package/morgan
+    2. Body parsing (express.json())
+    3. Authentication
+    4. Error handling
+    5. CORS support
+    6. Serving static files
+    7. Pre-processing (body-parser)
 
 
 
