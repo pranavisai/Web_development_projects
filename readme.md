@@ -216,5 +216,14 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP
     1. If the file is directly in views folder then in .js file we write -> res.render("index.ejs")
     2. If places in some other folder within the view folder then we write -> res.render("other_folder_name/index.ejs")
 
+## Git Version Control
+1. To rollback to the previous version -> git checkout
+2. In gitignore:
+    1. Use # to comment.
+    2. To ignore all files with an extension -> *.extenstion
+    3. https://github.com/github/gitignore -> created by github to use as templates when using certain technologies in projects.
+3. https://learngitbranching.js.org/ -> learning to use git commands
+
+
 
 
