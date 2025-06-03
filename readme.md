@@ -202,6 +202,19 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP
     6. Serving static files
     7. Pre-processing (body-parser)
 
+## Embedded JavaScript (EJS)
+1. In order to separate frontend from backend and decrease the complexity of the code we need to use templating language.
+2. EJS Tags:
+    1. <%= %> -> variable
+    2. <%  %> -> executable javascript code
+    3. <%- %> -> content should be interpreted as HTML
+    4. <%% %%> -> escape EJS tag
+    5. <%# %> -> comment
+    6. <%- include("name of ejs file") %> -> insert another ejs file into the current ejs file
+3. To provide static file location we can use middleware and add in the following command in our index.js file -> app.use(express.static("foldername"))
+4. The ejs files declaration in the js or ejs files are always relative to the views folder:
+    1. If the file is directly in views folder then in .js file we write -> res.render("index.ejs")
+    2. If places in some other folder within the view folder then we write -> res.render("other_folder_name/index.ejs")
 
 
 
