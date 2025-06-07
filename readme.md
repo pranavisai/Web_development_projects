@@ -220,9 +220,32 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP
 1. To rollback to the previous version -> git checkout
 2. In gitignore:
     1. Use # to comment.
-    2. To ignore all files with an extension -> *.extenstion
+    2. To ignore all files with an extension -> *.extension
     3. https://github.com/github/gitignore -> created by github to use as templates when using certain technologies in projects.
 3. https://learngitbranching.js.org/ -> learning to use git commands
+
+## APIs (Application Programming Interfaces)
+1. API endpoints look like this -> BaseURL/Endpoint
+2. Query Parameters -> BaseURL/Endpoint?query=value
+3. Multiple Query Parameters -> BaseURL/Endpoint?query=value&query2=value2
+4. Path parameters -> BaseURL/Endpoint/{path-parameter}
+5. JSON -> Javascript Object Notation
+6. Convert JS Object, represented by data to JSON, represented by jsonData -> `const jsonData = JSON.stringify(data)`
+7. Convert JSON, represented by jsonData to JS Object, represented by data -> `const data = JSON.parse(jsonData)`
+8. https://jsonviewer.stack.hu -> JSON viewer for simplicity.
+9. Types of API authentication:
+    1. No Authentication
+        1. Can be limited per requests
+    2. Basic Authentication
+        1. Request username and password
+        2. Use Base64 encoding
+        3. https://www.base64decode.org/ -> to decode base64
+        4. Because of HTTPS it is secure as cryptography is being used to encode it further to make it look like nonsense.
+    3. API Key Authentication
+        1. Using an API key for authentication
+    4. Token Based Authentication
+        1. User uses username and password to generate a token which is in turn used to access the API.
+        2. OAUTH -> Industry standard for token based authentication
 
 
 
