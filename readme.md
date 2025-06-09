@@ -246,6 +246,18 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP
     4. Token Based Authentication
         1. User uses username and password to generate a token which is in turn used to access the API.
         2. OAUTH -> Industry standard for token based authentication
+10. https://rapidapi.com -> Can be used to host own APIs
+11. What makes an API RESTful?
+    1. HTTP methods -> GET, POST, PATCH, PUT, DELETE to interact with the API
+    2. Should have standard data format it responds with. Example like JSON output
+    3. Client and Server are separate and isolated, allowing for scalability. Interaction only through network.
+    4. Should be stateless. 
+    5. Uses URI/URL as resource locator.
+12. In case, you need to give the User Key for an operation such as DELETE All. The steps are as follows:
+    1. Go to postman. 
+    2. Go to auth and select API Key. 
+    3. Put the values as follows: Key -> key, Value -> key that you have and Add to: Query Params
+
 
 
 
