@@ -259,6 +259,26 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP
     3. Put the values as follows: Key -> key, Value -> key that you have and Add to: Query Params
 
 
+## Databases
+1. SQL -> Structured Query Language, also known as Relational Database.
+2. Reasons for sticking with SQL:
+    1. Structure
+    2. Ability to plan the database.
+    3. Consistency.
+    4. Good code quality maintenance.
+    5. Examples: PostgreSQL, MySQL, SQLite, Oracle
+3. NoSQL -> Not Only SQL
+4. Reasons for moving to NoSQL databases: 
+    1. Uses things such as key/value pairs like what you see here, or document models where you store everything in a single document, just like a JSON.
+    2. Flexibility and moving away from this strict schema.
+    3. Provide scalability. For data to be able to scale horizontally (more records) and vertically (more fields).
+    4. Examples: MongoDB, Redis, DynamoDB
+
+## PostgreSQL 
+1. CRUD -> Create, Read, Update, Delete
+2. https://www.postgresql.org/docs/current/datatype.html -> datatypes
+
+
 
 
 
