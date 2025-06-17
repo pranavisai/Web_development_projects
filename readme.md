@@ -278,6 +278,19 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP
 1. CRUD -> Create, Read, Update, Delete
 2. https://www.postgresql.org/docs/current/datatype.html -> datatypes
 
+## Web Security
+
+1. Authentication
+    1. Encryption: The process of converting information or data into a code, especially to prevent unauthorized access.
+    2. Ceaser Cipher -> https://cryptii.com/pipes/caesar-cipher
+    3. aes256 -> https://encode-decode.com/aes256-encrypt-online
+    4. As the length of the password increases, the time taken to decrypt it increases *exponentially*.
+    5. Currently, used mechanism is bcrypt -> https://www.npmjs.com/package/bcrypt
+    
+
+
+
+
 
 
 
