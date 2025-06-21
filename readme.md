@@ -286,7 +286,25 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP
     3. aes256 -> https://encode-decode.com/aes256-encrypt-online
     4. As the length of the password increases, the time taken to decrypt it increases *exponentially*.
     5. Currently, used mechanism is bcrypt -> https://www.npmjs.com/package/bcrypt
-    
+    6. *Passport* is an authentication middleware for Node.js. It can be unobstructively dropped in to any Express based web application.
+    7. Express session is used to enable session persistence. To bypass the login process the next time the website is accessed.
+    8. Passport is a neat library that allows to add lots of different authentication strategies into one project.
+2. Environment Variables
+    1. Used for convenience and security.
+    2. Environment variables essentially allows to separate out and store keys, project secrets, and various other variables away from where the code base is located.
+    3. It is a simple file with .env extension and can be installed into the project using "dotenv".
+3. OAuth -> Open Authorisation
+    1. Granular Access Levels
+    2. Read/ Read + Write Access
+    3. Revoke Access
+    4. How OAuth Works:
+        1. Let the third party, be it Facebook, Twitter, or Google, know about the web application.
+        2. Set up the app in their developer console to get the client ID.
+        3. The app can then make a request to the third party to authenticate the user.
+        4. Granted the permission, then the app will receive an authorization code. This allows to check to make sure that the user actually successfully signed on.
+        5. To go a step further, exchange of authentication code for an Access Token is done and saved into the database as it is valid longer than the authentication token.
+        
+
 
 
 
