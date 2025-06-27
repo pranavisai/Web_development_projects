@@ -331,6 +331,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP
     3. If any values do not exist or undefined then use this to set the values -> `const {value1 = "value_given1", value2 = "value_given2"} = object`.
     4. Get a nested value -> `const {value1, value2, value3: {value3.1, value3.2}} = object`.
 
+5. ... -> Spread Operator (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax).
+
 ## React.js
 1. Front End JavaScript library for building user interfaces.
 2. CodeSandbox -> A browser based development environment which allows to instantly deploy whatever is built. (https://codesandbox.io/)
@@ -354,7 +356,21 @@ and in the file to be imported add `import {function_name} from "{file_name}"`.
 ## React Hooks
 1. Declarative Programming -> Writing code according to how our user interface should look under different conditions dependent upon the state.
 2. Imperative Programming -> We tap into any element's properties and then we set it equal to something, this is us imperatively telling this element to do something different.
-3. 
+3. Hooks makes the code more cleaner and easy to read.
+
+## Styling options for React using MUI (Material UI)
+https://www.npmjs.com/package/@mui/material
+https://www.npmjs.com/package/@mui/icons-material
+https://mui.com/material-ui/
+Icons search -> https://mui.com/material-ui/material-icons/
+Icons Page -> https://mui.com/material-ui/icons/
+Buttons -> https://mui.com/material-ui/react-button/
+
+
+1. Install using npm: npm install @mui/icons-material @mui/material @emotion/react @emotion/styled
+2. Search for an icon using the above link "icons search", choose an icon that you need using the search bar and copy the import into the project file and add it as an element.
+3. To give transparent background textures -> https://www.transparenttextures.com/
+
 
 
 
