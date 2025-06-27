@@ -16,7 +16,7 @@ https://flexboxfroggy.com/
 
 https://www.emojimeanings.net/list-smileys-people-whatsapp
 
-dictonary HTML element -> https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dl
+dictionary HTML element -> https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dl
 
 ## grid test
 https://appbrewery.github.io/grid-sizing/test.html
@@ -297,7 +297,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP
     1. Used for convenience and security.
     2. Environment variables essentially allows to separate out and store keys, project secrets, and various other variables away from where the code base is located.
     3. It is a simple file with .env extension and can be installed into the project using "dotenv".
-3. OAuth -> Open Authorisation
+3. OAuth -> Open Authorization
     1. Granular Access Levels
     2. Read/ Read + Write Access
     3. Revoke Access
@@ -307,27 +307,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP
         3. The app can then make a request to the third party to authenticate the user.
         4. Granted the permission, then the app will receive an authorization code. This allows to check to make sure that the user actually successfully signed on.
         5. To go a step further, exchange of authentication code for an Access Token is done and saved into the database as it is valid longer than the authentication token.
-
-## React.js
-1. Front End JavaScript library for building user interfaces.
-2. CodeSandbox -> A browser based development environment which allows to instantly deploy whatever is built. (https://codesandbox.io/)
-3. Required dependencies for React -> react and react-dom.
-4. react-dom render variables -> what to show and where to show it (write this using JS scripting).
-5. Inside the react module is a JavaScript compiler called "Babel". (https://babeljs.io/)
-6. Through the use of Babel, next-generation JS gets converted down into a version of JavaScript that can be read by every single browser.
-7. To run a react project after npm i in the project do npm run dev.
-
-## Rendering HTML elements in React
-1. Provided codes in the form of files for understanding in React folder.
-2. {first_name + " " + last_name} in *ES6* -> {`${first_name} ${last_name}`}.
-
-## React Components
-1. When we want to create our own custom components files to use it in any other file, we need to add the `export default {function_name}`
-and in the file to be imported add `import {function_name} from "{file_name}"`.
-2. We can also import variables in a similar way. 
-3. To import more than one variable or function that is not default, we use export `{function_name, variable_name}` and in the imported file use `import {function_name, variable_name}`.
-4. To import everything from the other file we can use `import * as name_given from {file_name}`. To call the particular function or variable, the format will be name_given.function or name_given.variable.
-
 
 ## JavaScript ES6
 1. ECMAScript 2015 was the second major revision to JavaScript. ECMAScript 2015 is also known as ES6 and ECMAScript 6.
@@ -346,6 +325,38 @@ and in the file to be imported add `import {function_name} from "{file_name}"`.
     9. Allows functions to have default values for parameters.
 
 3. Terenary Operator -> `CONDITION ? DO IF TRUE : DO IF FALSE`
+4. Destructuring:
+    1. When *destructing* the specific values from an object it is important to use the same names as the ones given in the key values.
+    2. If to provide a different name to the key -> `const {value1: changed_name1, value2: changed_name2} = object`.
+    3. If any values do not exist or undefined then use this to set the values -> `const {value1 = "value_given1", value2 = "value_given2"} = object`.
+    4. Get a nested value -> `const {value1, value2, value3: {value3.1, value3.2}} = object`.
+
+## React.js
+1. Front End JavaScript library for building user interfaces.
+2. CodeSandbox -> A browser based development environment which allows to instantly deploy whatever is built. (https://codesandbox.io/)
+3. Required dependencies for React -> react and react-dom.
+4. react-dom render variables -> what to show and where to show it (write this using JS scripting).
+5. Inside the react module is a JavaScript compiler called "Babel". (https://babeljs.io/)
+6. Through the use of Babel, next-generation JS gets converted down into a version of JavaScript that can be read by every single browser.
+7. To run a react project after npm i in the project do npm run dev.
+
+## Rendering HTML elements in React
+1. Provided codes in the form of files for understanding in React folder.
+2. `{first_name + " " + last_name}` in *ES6* -> {`${first_name} ${last_name}`}.
+
+## React Components
+1. When we want to create our own custom components files to use it in any other file, we need to add the `export default {function_name}`
+and in the file to be imported add `import {function_name} from "{file_name}"`.
+2. We can also import variables in a similar way. 
+3. To import more than one variable or function that is not default, we use export `{function_name, variable_name}` and in the imported file use `import {function_name, variable_name}`.
+4. To import everything from the other file we can use `import * as name_given from {file_name}`. To call the particular function or variable, the format will be name_given.function or name_given.variable.
+
+## React Hooks
+1. Declarative Programming -> Writing code according to how our user interface should look under different conditions dependent upon the state.
+2. Imperative Programming -> We tap into any element's properties and then we set it equal to something, this is us imperatively telling this element to do something different.
+3. 
+
+
 
 
 
